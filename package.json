@@ -1,7 +1,7 @@
 {
-  "name": "import-dir",
+  "name": "importer",
   "version": "1.0.0",
-  "description": "Import the files in a directory recursively using dynamic import()",
+  "description": "Import the files in a directory recursively using dynamic import(import.meta.url)",
   "main": "index.js",
   "type": "module",
   "scripts": {

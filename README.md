@@ -1,4 +1,4 @@
-# import-dir
+# importer
 
 > Using the `import.meta.url` file URL to recursively and dynamically
 > `import()` each of the files inside the directory of the specified URL.
