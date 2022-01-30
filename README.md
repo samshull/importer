@@ -1,4 +1,4 @@
-# importer
+# esm-directory-import
 
 > Using the `import.meta.url` file URL to recursively and dynamically
 > `import()` each of the files inside the directory of the specified URL.
@@ -36,7 +36,7 @@ export const defaults = await importDir(import.meta.url, { exclude: ['directory2
 ```
 
 # Arguments
-The default export function of `import-dir` accepts 2 arguments, the first is a file URL, typically the value of `import.meta.url` from the ESM that invokes the function. The second argument is a dictionary of options outlined here:
+The default export function of `esm-directory-import` accepts 2 arguments, the first is a file URL, typically the value of `import.meta.url` from the ESM that invokes the function. The second argument is a dictionary of options outlined here:
 
 - `exclude: string[] = []` An array of string file paths relative to the initial file URL that
   should be excluded from the returned object.
